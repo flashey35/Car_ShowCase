@@ -71,7 +71,7 @@ const CarCard = ({ car }: carCardProps) => {
       </div>
       <CarDetails
         isOpen={isOpen}
-        closeModel={() => setIsOpen(false)}
+        closeModal={() => setIsOpen(false)}
         car={car}
       />
     </div>
